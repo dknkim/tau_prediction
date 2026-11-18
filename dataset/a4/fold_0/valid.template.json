@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "patient_id": "example-a4-valid",
+      "dataset": "A4",
+      "date": "2000-01-01",
+      "tracer": "FTP",
+      "Braak1": 1.0,
+      "Braak2": 1.0,
+      "Braak3": 1.0,
+      "Braak4": 1.0,
+      "Braak5": 1.0,
+      "Braak6": 1.0,
+      "Braak1to4": 1.0,
+      "Braak5_6": 1.0,
+      "age": null,
+      "sex": null,
+      "apoe": null,
+      "edu": null,
+      "mmse": null,
+      "status": null,
+      "instances": [
+        {
+          "image_path": "/path/to/preprocessed/example-a4-valid_MPRAGE.nii.gz",
+          "sequence_type": "MPRAGE",
+          "field_strength": null,
+          "time": null,
+          "date": "2000-01-01"
+        },
+        {
+          "image_path": "/path/to/preprocessed/example-a4-valid_FLAIR.nii.gz",
+          "sequence_type": "FLAIR",
+          "field_strength": null,
+          "time": null,
+          "date": "2000-01-01"
+        }
+      ]
+    }
+  ]
+}
